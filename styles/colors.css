@@ -1,0 +1,70 @@
+.bg--green {
+  background-color: #4BA69D;
+}
+
+.bg--fucsia {
+  background-color: #FE518A;
+}
+
+.bg--purple {
+  background-color: #99195E;
+}
+
+.bg--yellow {
+  background-color: #F5DE51;
+}
+
+.bg--orange {
+  background-color: #FFB354;
+}
+
+.bg--pink {
+  background-color: #F6A3E6;
+}
+
+.bg--pink-2 {
+  background-color: #F5C7E7;
+}
+
+.bg--pink-3 {
+  background-color: #B177E7;
+}
+
+.bg--black {
+  background-color: #000000;
+}
+
+.pre__bg {
+  overflow: hidden;
+}
+
+.pre__bg svg {
+  width: 100%;
+  height: 110%;
+  position: fixed;
+  left: 0;
+  top: -5%;
+}
+
+.pre__bg svg path {
+  fill: #FE518A;
+}
+
+.pre__bg2,
+.pre__bg3 {
+  visibility: hidden;
+}
+
+.pre__container {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+.pre__title {
+  display: none;
+}
+
+.pre__title div {
+  will-change: transform, opacity;
+}
